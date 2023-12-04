@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>ToDo App</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="header"><h1>ToDo App</h1></div>
+        <div class="menu"><p>Menü</p></div>
+        <div class="inputfield">
+          <input type="text" class="ftask" id="ftask" placeholder="Enter Task">
+          <button onClick="funSubmit()" id="fsubmit">Submit</button>
+        </div>
+        <div class="taskheader"><h2>Tasks:</h2>
+          <div class="tasks"> 
+            <ul id="list">
+              <li id=100><span="taskvalue">1</span><span id="mark">3</span><span id="trash">2</span></li>
+            </ul>
+
+          </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
